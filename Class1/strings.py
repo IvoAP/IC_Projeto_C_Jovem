@@ -4,7 +4,8 @@
 # 'a'
 # 'falou'
 
-texto = '           Python é incrível                    '
+
+texto = "           Python é incrível                    "
 print(texto)
 
 # 1 -  Remover espaços extras
@@ -24,6 +25,7 @@ texto_replace = texto.replace("incrível", "fantástico")
 print(f"{texto_replace}")
 
 # Dividir a string
+#[Python, é , incrivel]
 texto_split = texto.split()
 print(f"{texto_split}")
 
@@ -32,5 +34,5 @@ print(f"tamanho total de texto: {len(texto)}")
 print(f"tamanho total de texto split: {len(texto_split)}")
 
 # Verificar se um string começa com algum carctere
-inicio = texto_strip.startswith("Python")
+inicio = texto.startswith("Python")
 print(f"{inicio}")

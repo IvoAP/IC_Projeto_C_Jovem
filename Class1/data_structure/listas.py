@@ -1,9 +1,9 @@
 # Listas são coleções de dados mutáveis. E elas podem conter elementos de diferentes tipos 
 # e voce pode realizar algumas operções nas listas
-#--------  0  1  2  3
-lista1 = [ 1, 2, 3, 4]
+#--------  0  1  2  3  
+lista1 = [ 1, 2, 3, 4]  
 
-# Adicionar um novo elemnto na nossa lista:
+# Adicionar um novo elemento na nossa lista:
 lista1.append(78)
 lista1.append(0)
 lista1.append(3)
@@ -35,17 +35,22 @@ print(lista1)
 todos = lista1[:]
 print(f"Todos: {todos}")
 
-# Todos os indices 0 ao 2
-slice1 = lista1[1:3]
+# Todos os indices 1 ao 2
+# o primeiro parametro é inicio do intervalo que eu desejo iniciar
+# o segundo é o parametro de parada
+# e o terceiro é de quantas em quantas casas eu quero andar
+slice1 = lista1[0:3]
 print(f"Slice1 : {slice1}")
 
 #Quero pegar do início:
-slice0 = lista1[:4]
+# eu inicio da posição 0
+# e eu vou parar na posição 3
+slice0 = lista1[:3]
 print(f"Slice0 : {slice0}")
 
 
 # Quero pular itens de 2 em 1
-slice2 = lista1[::2]
+slice2 = lista1[1:5:2]
 print(f"slice2: {slice2}")
 
 # Reverter a minha lista
@@ -55,4 +60,6 @@ print(revert)
 # Percorrer a lista com passos negativos:
 neg_pass = lista1[5:1:-1]
 print(neg_pass)
+
+
 

@@ -4,7 +4,7 @@
 dicionario = {
     "nome" : "João",
     "idade" : 30,
-    "cidade" : "Fortaleza"
+    "cidade" : "Fortaleza",
 }
 
 # Acessar um valor 

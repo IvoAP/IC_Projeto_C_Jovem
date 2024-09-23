@@ -6,8 +6,15 @@
 # 5 - Divisão Inteira
 # 6 - Potenciação
 
-n1  = float(input("Insira um número: "))
+# inteiro (int) - >1, 2 , 3
+# float(float) -> 1.0 , 1.25
+
+n1  = int(input("Insira um número: "))
 n2 = int(input("Insira um número: "))
+
+
+print(f"Numero 1: {n1}")
+print(f"Numero 2: {n2}")
 
 # Adição
 soma = n1+n2
@@ -27,7 +34,7 @@ print("Potencia: ", n1**n2)
 print("Divisão: " , n1/n2)
 
 # Divisão Inteira
-print(" Divisão Inteira: ", int(n1//n2))
+print(" Divisão Inteira: ", (n1//n2))
 
 
 
